@@ -24,4 +24,9 @@ CreateItems(){
     label:''
   })
 }
+
+deleteItem(index){ //remove dynamic content at a particular index
+  this.dynamicArrayForm.controls.codeitems.reset();
+}
+
 }
